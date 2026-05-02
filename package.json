@@ -1,0 +1,16 @@
+{
+  "name": "hanzilearn",
+  "version": "1.0.0",
+  "description": "HanziLearn - Chinese language learning app backend",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/webhook",  "dest": "/api/webhook.js"  },
+    { "src": "/api/progress", "dest": "/api/progress.js" },
+    { "src": "/api/user",     "dest": "/api/user.js"     },
+    { "src": "/api/task",     "dest": "/api/task.js"     },
+    { "src": "/(.*)",         "dest": "/api/webhook.js"  }
+  ]
+}
